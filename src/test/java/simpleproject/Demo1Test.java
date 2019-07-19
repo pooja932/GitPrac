@@ -12,5 +12,6 @@ public void FirstTest(){
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.seleniumhq.org/");
 		System.out.println(driver.getTitle());
+	driver.getText();
 	}
 }
